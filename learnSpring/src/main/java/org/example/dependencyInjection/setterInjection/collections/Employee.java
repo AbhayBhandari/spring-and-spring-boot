@@ -1,4 +1,4 @@
-package org.example.setterInjection.collections;
+package org.example.dependencyInjection.setterInjection.collections;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package org.example.setterInjection.primitive;
+package org.example.dependencyInjection.setterInjection.primitive;
 
 public class Student {
     private int studentRollNumber;

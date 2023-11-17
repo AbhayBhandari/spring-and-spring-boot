@@ -1,4 +1,4 @@
-package org.example.constructorInjection;
+package org.example.dependencyInjection.constructorInjection;
 
 public class Person {
     private String name;

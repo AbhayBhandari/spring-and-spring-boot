@@ -1,4 +1,4 @@
-package org.example.setterInjection.reference;
+package org.example.dependencyInjection.setterInjection.reference;
 
 public class B {
     private int y;

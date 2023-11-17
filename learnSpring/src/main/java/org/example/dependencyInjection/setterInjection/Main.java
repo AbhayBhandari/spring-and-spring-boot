@@ -1,8 +1,8 @@
-package org.example.setterInjection;
+package org.example.dependencyInjection.setterInjection;
 
-import org.example.setterInjection.collections.Employee;
-import org.example.setterInjection.reference.A;
-import org.example.setterInjection.primitive.Student;
+import org.example.dependencyInjection.setterInjection.collections.Employee;
+import org.example.dependencyInjection.setterInjection.primitive.Student;
+import org.example.dependencyInjection.setterInjection.reference.A;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

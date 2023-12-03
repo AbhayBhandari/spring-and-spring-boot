@@ -1,5 +1,6 @@
 package com.learnJPA.learnJPA;
 
+import com.learnJPA.learnJPA.crudOperations.CRUD_Operations;
 import com.learnJPA.learnJPA.entities.User;
 import com.learnJPA.learnJPA.repository.UserRepository;
 import jakarta.transaction.Transactional;
@@ -13,14 +14,22 @@ public class LearnJpaApplication {
 	public static void main(String[] args) {
 
 		ApplicationContext context = SpringApplication.run(LearnJpaApplication.class, args);
+
+		//we cannot create object of UserRepository as it is an interface but we can create its Bean
 		UserRepository userRepository = context.getBean(UserRepository.class);
 
-		User user = new User();
-		user.setName("Abhay Bhandari");
-		user.setCity("Pune");
+		CRUD_Operations crudOperations = new CRUD_Operations();
 
-		User getUser = userRepository.save(user);
-		System.out.println(getUser);
+//		crudOperations.update(1, userRepository);
+
+		Iterable<User>itr= crudOperations.getAllUser(userRepository);
+		itr.forEach(user-> System.out.println(user));
+
+//		crudOperations.deleteById(52, userRepository);
+
+																		//this name string is not case sensititve
+		System.out.println("find by name " + userRepository.findByName("Abhay bhandari"));
+
 	}
 
 }

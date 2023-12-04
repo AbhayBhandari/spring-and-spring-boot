@@ -29,6 +29,7 @@ public class LearnJpaApplication {
 
 																		//this name string is not case sensititve
 		System.out.println("find by name " + userRepository.findByName("Abhay bhandari"));
+		System.out.println("by city "+ userRepository.findByCityy("Pune"));
 
 	}
 

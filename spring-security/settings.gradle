@@ -1,2 +1,5 @@
 rootProject.name = 'spring-security'
 include 'default-form-authentication'
+include 'dummy'
+include 'dummy'
+

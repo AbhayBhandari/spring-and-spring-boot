@@ -1,6 +1,6 @@
-package com.springSecurity.springsecurity.service;
+package com.defaultBasic.auth.service;
 
-import com.springSecurity.springsecurity.entity.User;
+import com.defaultBasic.auth.entity.User;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
-package com.springSecurity.springsecurity.controller;
+package com.defaultBasic.auth.controller;
 
-import com.springSecurity.springsecurity.entity.User;
-import com.springSecurity.springsecurity.service.UserService;
+import com.defaultBasic.auth.entity.User;
+import com.defaultBasic.auth.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

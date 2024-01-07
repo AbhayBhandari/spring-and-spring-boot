@@ -1,4 +1,4 @@
-package com.springSecurity.springsecurity.entity;
+package com.defaultBasic.auth.entity;
 
 public class User {
     private String name;

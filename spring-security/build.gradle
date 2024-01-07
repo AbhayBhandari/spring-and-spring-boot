@@ -25,6 +25,10 @@ allprojects {
     tasks.named('test') {
         useJUnitPlatform()
     }
+
+    springBoot {
+        mainClass = 'com.auth.main.SpringSecurityApplication'
+    }
 }
 
 java {
